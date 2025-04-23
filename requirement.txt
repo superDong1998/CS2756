@@ -4,7 +4,9 @@ cachetools==5.5.2
 certifi @ file:///croot/certifi_1671487769961/work/certifi
 charset-normalizer==3.4.1
 click==8.1.8
+cycler==0.11.0
 decorator==5.1.1
+fonttools==4.38.0
 gast==0.3.3
 gensim==3.8.3
 google-auth==2.38.0
@@ -16,17 +18,22 @@ idna==3.10
 importlib-metadata==6.7.0
 joblib==0.17.0
 Keras-Preprocessing==1.1.2
+kiwisolver==1.4.5
 Markdown==3.4.4
 MarkupSafe==2.1.5
+matplotlib==3.5.3
 networkx==2.1
 nltk==3.8.1
 numpy==1.18.5
 oauthlib==3.2.2
 opt-einsum==3.3.0
+packaging==24.0
 pandas==0.25.1
+Pillow==9.5.0
 protobuf==3.20.3
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
+pyparsing==3.1.4
 python-dateutil==2.9.0.post0
 pytz==2025.2
 regex==2024.4.16
@@ -53,4 +60,5 @@ typing_extensions==4.7.1
 urllib3==2.0.7
 Werkzeug==2.2.3
 wrapt==1.16.0
+xgboost==1.6.2
 zipp==3.15.0
