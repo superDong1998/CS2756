@@ -267,7 +267,7 @@ if __name__ == "__main__":
 
     plt.xticks(x, algorithms, rotation=45)
     plt.ylabel("Score")
-    plt.set_yscale('log')
+    plt.yscale('log')
     plt.title("Metrics by Algorithm")
     plt.legend()
     plt.savefig(f"{filename.split('/')[-1].replace('.gz','')}_top{top_k}.pdf", format='pdf')
